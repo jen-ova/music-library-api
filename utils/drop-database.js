@@ -8,7 +8,7 @@ const path = require('path');
 
 // load environment variables from env files
 require('dotenv').config({
-  path: path.join(__dirname, envFile),
+  path: path.join(__dirname, '../.env.test'),
 });
 
 // destructure environment variables from process.env
