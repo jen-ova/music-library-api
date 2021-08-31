@@ -16,7 +16,7 @@ describe('read artist', () => {
       ]),
       db.query('INSERT INTO Artist (name, genre) VALUES(?, ?)', [
         'Carpenter Brut',
-        'synth',
+        'synthwave',
       ]),
       db.query('INSERT INTO Artist (name, genre) VALUES(?, ?)', [
         'Meshuggah',
