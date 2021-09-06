@@ -10,16 +10,16 @@ describe('delete artist', () => {
     db = await getDb();
     await Promise.all([
       db.query('INSERT INTO Artist (name, genre) VALUES(?, ?)', [
-        'Tame Impala',
-        'rock',
+        'Periphery',
+        'djent',
       ]),
       db.query('INSERT INTO Artist (name, genre) VALUES(?, ?)', [
-        'Kylie Minogue',
-        'pop',
+        'Carpenter Brut',
+        'synthwave',
       ]),
       db.query('INSERT INTO Artist (name, genre) VALUES(?, ?)', [
-        'Dave Brubeck',
-        'jazz',
+        'Meshuggah',
+        'prog metal',
       ]),
     ]);
 
