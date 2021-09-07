@@ -40,7 +40,7 @@ Concepts include database design, SQL, MySQL and CRUD operations. This allows th
 
 * [NPM](https://docs.npmjs.com/getting-started)
 * [Node.js](https://nodejs.org/en/download/)
-* [MySQL](hhttps://www.mysql.com/)
+* [MySQL](https://www.mysql.com/)
 * [Docker](https://www.docker.com/)
 * [JavaScript](https://www.javascript.com/)
 * [Chai.js](https://www.chaijs.com/)
