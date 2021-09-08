@@ -2,3 +2,6 @@ node_modules
 package-lock.json
 .env
 .env.test
+src/controllers/album.js
+src/routes/album.js
+tests/album-create.test.js
